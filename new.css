@@ -1,0 +1,30 @@
+body{
+    background-image: url(images/Background.png) ;
+    background-attachment: fixed;
+    background-color: ;
+}
+
+.box{
+    border: 2px solid;
+    width: calc(50%);
+    box-sizing:border-box;
+    padding: 20px;
+
+}
+
+#b1{
+    float: left;
+    margin-right: 0px;
+}
+
+#b2{    
+    background-color: aliceblue;
+    margin-left: 0px;
+    float:left;
+
+}
+
+#container ~ #b1{
+    border: 3px solid;
+    background-color: yellowgreen;
+}
